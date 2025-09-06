@@ -1,4 +1,3 @@
-# Pusula_MehmetAli_Aydogar
 # Pusula Academy - Data Science Intern Case Study
 
 **Ad Soyad:** Mehmet Ali Aydoğar  
@@ -18,19 +17,19 @@ Projenin amacı, veriyi **modellemeye hazır hale getirmek** ve veri yapısını
 
 | Değişken | Açıklama |
 |-----------|----------|
-| HastaNo |
-| Yas | 
-| Cinsiyet | 
-| KanGrubu |
-| Uyruk | 
-| KronikHastalik |
-| Bolum | 
-| Alerji | 
-| Tanilar |
-| TedaviAdi | 
-| TedaviSuresi | 
-| UygulamaYerleri | 
-| UygulamaSuresi | 
+| HastaNo | Anonimleştirilmiş hasta ID |
+| Yas | Yaş |
+| Cinsiyet | Cinsiyet |
+| KanGrubu | Kan grubu |
+| Uyruk | Uyruk |
+| KronikHastalik | Kronik hastalıklar (virgülle ayrılmış) |
+| Bolum | Bölüm/Klinik |
+| Alerji | Alerjiler |
+| Tanilar | Tanılar |
+| TedaviAdi | Tedavi adı |
+| TedaviSuresi | Tedavi süresi (hedef değişken, seans sayısı) |
+| UygulamaYerleri | Uygulama yerleri |
+| UygulamaSuresi | Uygulama süresi |
 
 ---
 
@@ -44,7 +43,7 @@ Projenin amacı, veriyi **modellemeye hazır hale getirmek** ve veri yapısını
 
 ---
 
-## 4. Veri Ön İşleme
+## 4. Basit Veri Ön İşleme
 - Aynı hastanın birden fazla kaydı **HastaNo** bazında tekilleştirildi.
 - Hedef değişken (`TedaviSuresi_Num`) ve sayısal özellikler için eksik değerler dolduruldu ve scale edildi.
 - Kategorik değişkenler için eksik değerler mod ile dolduruldu ve **One-Hot Encoding** uygulandı.
